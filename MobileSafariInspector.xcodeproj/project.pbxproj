@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D44A8614912AB900EF013C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D44A8514912AB900EF013C /* UIKit.framework */; };
+		A6D44A8814912AB900EF013C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D44A8714912AB900EF013C /* Foundation.framework */; };
+		A6D44A8A14912AB900EF013C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D44A8914912AB900EF013C /* CoreGraphics.framework */; };
+		A6D44A9014912AB900EF013C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D44A8E14912AB900EF013C /* InfoPlist.strings */; };
+		A6D44A9214912AB900EF013C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D44A9114912AB900EF013C /* main.m */; };
+		A6D44AB114912B0400EF013C /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D44AA914912B0400EF013C /* MainWindow-iPad.xib */; };
+		A6D44AB214912B0400EF013C /* MobileSafariInspectorViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D44AAA14912B0400EF013C /* MobileSafariInspectorViewController-iPad.xib */; };
+		A6D44AB314912B0400EF013C /* MobileSafariInspectorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D44AAC14912B0400EF013C /* MobileSafariInspectorAppDelegate.m */; };
+		A6D44AB414912B0400EF013C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D44AAD14912B0400EF013C /* MainWindow.xib */; };
+		A6D44AB514912B0400EF013C /* MobileSafariInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D44AAF14912B0400EF013C /* MobileSafariInspectorViewController.m */; };
+		A6D44AB614912B0400EF013C /* MobileSafariInspectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D44AB014912B0400EF013C /* MobileSafariInspectorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6D44A8114912AB900EF013C /* MobileSafariInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileSafariInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D44A8514912AB900EF013C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6D44A8714912AB900EF013C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6D44A8914912AB900EF013C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6D44A8D14912AB900EF013C /* MobileSafariInspector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileSafariInspector-Info.plist"; sourceTree = "<group>"; };
+		A6D44A8F14912AB900EF013C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D44A9114912AB900EF013C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6D44A9314912AB900EF013C /* MobileSafariInspector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileSafariInspector-Prefix.pch"; sourceTree = "<group>"; };
+		A6D44AA914912B0400EF013C /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		A6D44AAA14912B0400EF013C /* MobileSafariInspectorViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MobileSafariInspectorViewController-iPad.xib"; sourceTree = "<group>"; };
+		A6D44AAB14912B0400EF013C /* MobileSafariInspectorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileSafariInspectorAppDelegate.h; sourceTree = "<group>"; };
+		A6D44AAC14912B0400EF013C /* MobileSafariInspectorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileSafariInspectorAppDelegate.m; sourceTree = "<group>"; };
+		A6D44AAD14912B0400EF013C /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		A6D44AAE14912B0400EF013C /* MobileSafariInspectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileSafariInspectorViewController.h; sourceTree = "<group>"; };
+		A6D44AAF14912B0400EF013C /* MobileSafariInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileSafariInspectorViewController.m; sourceTree = "<group>"; };
+		A6D44AB014912B0400EF013C /* MobileSafariInspectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobileSafariInspectorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D44A7E14912AB900EF013C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D44A8614912AB900EF013C /* UIKit.framework in Frameworks */,
+				A6D44A8814912AB900EF013C /* Foundation.framework in Frameworks */,
+				A6D44A8A14912AB900EF013C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D44A7614912AB900EF013C = {
+			isa = PBXGroup;
+			children = (
+				A6D44A8B14912AB900EF013C /* MobileSafariInspector */,
+				A6D44A8414912AB900EF013C /* Frameworks */,
+				A6D44A8214912AB900EF013C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D44A8214912AB900EF013C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D44A8114912AB900EF013C /* MobileSafariInspector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D44A8414912AB900EF013C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D44A8514912AB900EF013C /* UIKit.framework */,
+				A6D44A8714912AB900EF013C /* Foundation.framework */,
+				A6D44A8914912AB900EF013C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D44A8B14912AB900EF013C /* MobileSafariInspector */ = {
+			isa = PBXGroup;
+			children = (
+				A6D44AA914912B0400EF013C /* MainWindow-iPad.xib */,
+				A6D44AAA14912B0400EF013C /* MobileSafariInspectorViewController-iPad.xib */,
+				A6D44AAB14912B0400EF013C /* MobileSafariInspectorAppDelegate.h */,
+				A6D44AAC14912B0400EF013C /* MobileSafariInspectorAppDelegate.m */,
+				A6D44AAD14912B0400EF013C /* MainWindow.xib */,
+				A6D44AAE14912B0400EF013C /* MobileSafariInspectorViewController.h */,
+				A6D44AAF14912B0400EF013C /* MobileSafariInspectorViewController.m */,
+				A6D44AB014912B0400EF013C /* MobileSafariInspectorViewController.xib */,
+				A6D44A8C14912AB900EF013C /* Supporting Files */,
+			);
+			path = MobileSafariInspector;
+			sourceTree = "<group>";
+		};
+		A6D44A8C14912AB900EF013C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D44A8D14912AB900EF013C /* MobileSafariInspector-Info.plist */,
+				A6D44A8E14912AB900EF013C /* InfoPlist.strings */,
+				A6D44A9114912AB900EF013C /* main.m */,
+				A6D44A9314912AB900EF013C /* MobileSafariInspector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D44A8014912AB900EF013C /* MobileSafariInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D44AA214912AB900EF013C /* Build configuration list for PBXNativeTarget "MobileSafariInspector" */;
+			buildPhases = (
+				A6D44A7D14912AB900EF013C /* Sources */,
+				A6D44A7E14912AB900EF013C /* Frameworks */,
+				A6D44A7F14912AB900EF013C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileSafariInspector;
+			productName = MobileSafariInspector;
+			productReference = A6D44A8114912AB900EF013C /* MobileSafariInspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D44A7814912AB900EF013C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A6D44A7B14912AB900EF013C /* Build configuration list for PBXProject "MobileSafariInspector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D44A7614912AB900EF013C;
+			productRefGroup = A6D44A8214912AB900EF013C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D44A8014912AB900EF013C /* MobileSafariInspector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D44A7F14912AB900EF013C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D44A9014912AB900EF013C /* InfoPlist.strings in Resources */,
+				A6D44AB114912B0400EF013C /* MainWindow-iPad.xib in Resources */,
+				A6D44AB214912B0400EF013C /* MobileSafariInspectorViewController-iPad.xib in Resources */,
+				A6D44AB414912B0400EF013C /* MainWindow.xib in Resources */,
+				A6D44AB614912B0400EF013C /* MobileSafariInspectorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D44A7D14912AB900EF013C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D44A9214912AB900EF013C /* main.m in Sources */,
+				A6D44AB314912B0400EF013C /* MobileSafariInspectorAppDelegate.m in Sources */,
+				A6D44AB514912B0400EF013C /* MobileSafariInspectorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6D44A8E14912AB900EF013C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D44A8F14912AB900EF013C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D44AA014912AB900EF013C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D44AA114912AB900EF013C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D44AA314912AB900EF013C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileSafariInspector/MobileSafariInspector-Prefix.pch";
+				INFOPLIST_FILE = "MobileSafariInspector/MobileSafariInspector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6D44AA414912AB900EF013C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileSafariInspector/MobileSafariInspector-Prefix.pch";
+				INFOPLIST_FILE = "MobileSafariInspector/MobileSafariInspector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D44A7B14912AB900EF013C /* Build configuration list for PBXProject "MobileSafariInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D44AA014912AB900EF013C /* Debug */,
+				A6D44AA114912AB900EF013C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D44AA214912AB900EF013C /* Build configuration list for PBXNativeTarget "MobileSafariInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D44AA314912AB900EF013C /* Debug */,
+				A6D44AA414912AB900EF013C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D44A7814912AB900EF013C /* Project object */;
+}
