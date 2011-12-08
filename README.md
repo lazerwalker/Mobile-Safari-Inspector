@@ -1,16 +1,18 @@
 # What is this? #
 
 
-When developing normal webapps, the Webkit Inspector is an invaluable tool. Debugging iOS webapps can be a pain, though, since there's no way to access the Webkit Inspector within iOS. While Weinre (http://phonegap.github.com/weinre/) gives you a remote inspector, it's far less full-featured than the full Inspector. Another common solution is to just use desktop Safari to debug issues, but often problems arise that are specific to the iOS build of WebKit. 
+When developing normal webapps, the Webkit Inspector is an invaluable tool to help you debug Javascript, tweak CSS, and inspect the DOM. There's no way to access the Webkit Inspector within iOS, though, which can make debugging mobile webapps a frustrating experience. While it's possible to set up a remote inspector via Weinre (http://phonegap.github.com/weinre/), it's far less full-featured than the full inspector. Another common solution is to use the desktop version of Safari to debug issues, but often problems arise that are specific to the iOS build of WebKit. 
 
-Long story short, there isn't a good way to debug an iOS web app running in the actual iOS browser with a full-featured web inspector.
+Long story short, there's no good way to debug an iOS web app running in the actual iOS browser with a full-featured web inspector.
 
-Mobile Safari Inspector changes that. It's a bare-bones iOS web browser that uses private iOS 5 SDK APIs to let you use the full Webkit Inspector from your desktop browser while using an actual iOS UIWebView from inside the iOS Simulator. 
+Mobile Safari Inspector changes that. It's a bare-bones iOS web browser that uses private iOS 5 APIs to let you use the full Webkit Inspector from your desktop browser to inspect an actual UIWebView running i the iOS Simulator. 
 
 # Set-Up #
+Since it uses private APIs, Mobile Safari Inspector can't be submitted to Apple for release on the App Store. Fortunately, it's easy to get up and running via XCode even if you're not a paid iOS Developer Program member.
+
 1. Clone this repo
 2. Open MobileSafariInspector.xcodeproj in XCode 4
-3. Set the target to either the iPhone 5.0 Simulator or iPad 5.0 Simulator (it only works in the simulator, not an actual device)
+3. Set the target to either the iPhone 5.0 Simulator or iPad 5.0 Simulator
 4. Run the app
 5. In your desktop browser of choice, go to http://localhost:9999
 6. Debug away!
