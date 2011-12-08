@@ -6,7 +6,7 @@ Webkit Inspector is an invaluable tool to help debug Javascript, tweak CSS, and 
 
 Long story short, there's no good way to debug an iOS web app running in the actual iOS browser with a full-featured web inspector.
 
-Mobile Safari Inspector changes that. It's a bare-bones iOS web browser that uses private iOS 5 APIs to let you use the desktop Webkit Inspector desktop browser to inspect a UIWebView running is the iOS Simulator.
+Mobile Safari Inspector changes that. It's a bare-bones iOS web browser that uses private iOS 5 APIs to let you use the desktop Webkit Inspector to inspect a UIWebView running in the iOS Simulator.
 
 
 ## Setup ##
