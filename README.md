@@ -1,7 +1,9 @@
-# Mobile Safari Inspector #
+# Important Update #
+***Apple has added full support for the Safari Web Inspector in iOS 6, including physical devices instead of just the Simulator. 
+I'm leaving this repository up for posterity's sake, but you really should just use the official implementation.***
 
+## What does Mobile Safari Inspector do? ##
 
-## What does it do? ##
 Webkit Inspector is an invaluable tool to help debug Javascript, tweak CSS, and inspect the DOM when developing web apps. There's no way to access the Inspector within iOS, though, which can make debugging mobile web apps a frustrating experience. While it's possible to set up a remote inspector via Weinre (http://phonegap.github.com/weinre/), its functionality is limited. Another common solution is to use the desktop version of Safari to debug issues, but often problems arise that are specific to the iOS build of WebKit.
 
 Long story short, there's no good way to debug an iOS web app running in the actual iOS browser with a full-featured web inspector.
